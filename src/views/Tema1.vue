@@ -5,440 +5,167 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
+      h1 Ingredientes y aditivos no cárnicos
 
-      div(titulo="Titulo item 2")
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-    Separador
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(titulo="Titulo item 2")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
 
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    ImagenInfografica.color-primario
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    .bg-full-width.bg-fondo-1
+      .px-5.pb-5
 
-      .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+        p(data-aos="fade-right").mb-5 Los ingredientes utilizados en la elaboración de productos cárnicos como sal, azúcar, especias, condimentos, entre otros, ayudan a potenciar el sabor de estos alimentos, mejorando sus características organolépticas. Estos se pueden utilizar sin límite de dosificación ya que son poco tóxicos para el ser humano.
 
-      .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    Separador
-    ImagenInfograficaB.color-primario
-      template(v-slot:imagen)
-        figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-        h5 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-        h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    Separador
-    TarjetaAudio.color-primario.mb-3(
-      texto="Texto de muestra  "
-      :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      @audio-hover="mostrarIndicadorTarjetaAudio = false"
-    )
-      .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-    TarjetaAudio.color-secundario.mb-3(
-      texto="Texto de muestra <br> Texto de muestra "
-      :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-    )
-    Separador
-    .tarjeta.tarjeta--azul.p-4
-      SlyderA(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 En la elaboración de derivados cárnicos también se utiliza una serie de aditivos, los cuales se definen como sustancias elaboradas por síntesis química u obtenidas por fuentes naturales, que son agregados a los derivados cárnicos para potenciar el sabor, proporcionar propiedades de textura, mejorar el producto en la preparación y conservarlo, con el fin de prolongar su vida útil en la distribución, almacenamiento y transporte.
 
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    .tarjeta.tarjeta--gris.p-4
-      PasosB.color-acento-contenido
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row(titulo="")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    .tarjeta.tarjeta--gris.p-4
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Titulo 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row(titulo="Titulo 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center FIRST
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 2
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 3
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 4
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 5
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 6
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 7
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center LAST
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    Separador
-    LineaTiempoD.color-primario
-      .row(numero="1" titulo="Praesent luctus")
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(numero="2" titulo="Praesent luctus")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .row(numero="3" titulo="Praesent luctus")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    Separador
-    TabsA.color-acento-botones
-      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-        h4 PASO 1: The splendor
-        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-          strong user style sheets
-          |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-        h4 PASO 2: The splendor
-        .row
-          .col-xl-6.mb-4
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-xl-6
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    TabsC.color-primario
-      .py-3.py-md-4(titulo="The splendor of the mystery")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-3.py-md-4(titulo="Don’t lie to yourself")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    Separador
-    TabsB.color-primario
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    LineaTiempoE.color-primario
-      .row(titulo="2014 - Present" subtitulo="Title, Company")
-        .col-lg-6.mb-4.mb-lg-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-lg-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(titulo="2014 - Present" subtitulo="Title, Company")
-        .col-lg-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen      
-        .col-lg-6.mb-4.mb-lg-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    PasosA.color-primario.mb-5(tipo="n")
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Lorem ipsum dolor sit amet.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row
-        .col-md-6.mb-4.mb-md-0
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la Imagen
-        .col-md-6
-          h3 Nullam vulputate mauris eros, ut.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-    Separador
-    p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    .row
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-    Separador
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Celebrate your<br>failures
-        p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .col-md.tarjeta.color-acento-botones.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Sterility leads to<br>susceptibility
-        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-      .col-md.tarjeta.color-acento-contenido.text-white.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Sterility leads to<br>susceptibility
-        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-    Separador
-    .row
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-    Separador
-    .row
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
-          .tarjeta-numerada__numero
-            .h2 1
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
-          .tarjeta-numerada__numero
-            .h2 2
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
-          .tarjeta-numerada__numero
-            .h2 3
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botones.p-5
-          .tarjeta-numerada__numero
-            .h2 4
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
- 
+
+        p(data-aos="fade-right") #[strong Los aditivos se pueden clasificar de la siguiente manera:]
+
+
+        .row.align-items-stretch.justify-content-center.mb-4
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Colorantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Antioxidantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Espesantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Estabilizantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Acidificantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Antiaglomerantes
+
+        .row.align-items-stretch.justify-content-center.mb-4
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Polvos gasificantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Agentes de revestimiento
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Agentes de tratamiento de las harinas
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Exaltadores de aroma
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Edulcorantes artificiales
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Fosfatos
+
+        .row.align-items-stretch.justify-content-center.mb-4
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Conservadores
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Emulgentes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Gelificantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Exaltadores del sabor
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Correctores de acidez
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Almidones modificados
+
+        .row.align-items-stretch.justify-content-center.mb-5
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Antiespumantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Sales de fusión
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Aromatizantes
+          .col-md-4.col-lg-2
+            .bg-color-primario.px-4.py-5.h-100
+              h5.text-center.mb-0 Enzimas
+
+
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Tabla 1.
+              span Aditivos de uso permitido en productos cárnicos procesados
+
+
+            .tabla-a.color-acento-contenido.mb-3
+              table
+                thead
+                  tr(style="background-color: #FCF8DE; color: #000;")
+                    th Sustancia
+                    th Ejemplo de función tecnológica
+                    th Cantidad máxima admisible y restricción de uso
+                tbody
+                  tr
+                    td Ácido ascórbico, ascorbato de sodio y eritorbato de sodio
+                    td Aceleradores de curación, disminuyen el contenido de nitritos residuales
+                    td BPM (Buenas Prácticas de Manufactura)
+                  tr
+                    td Ácido cítrico y citrato de sodio
+                    td Anticoagulante, acidificante, antioxidante
+                    td Sustancia GRAS (Sustancia reconocida como no riesgosa (Generally Recognized as Safe)) - BPM
+                  tr
+                    td Ácido láctico, lactato de sodio, lactato de potasio
+                    td Conservantes naturales, disminuyen la actividad del agua
+                    td Sustancia GRAS - BPM siempre y cuando se utilice lactato
+                  tr
+                    td Diacetato de sodio
+                    td Conservantes naturales, disminuyen la actividad del agua
+                    td 2,5 % fracción de masa máximo como diacetato de sodio, en productos en proceso. Sustancia GRAS.
+                  tr
+                    td BHA (Butilhidroxianisol) y BHT (Butilhidroxitolueno)
+                    td Antioxidantes
+                    td Solo o en combinación 0,01 % fracción de masa, máximo referido al contenido de grasa, en productos frescos. Solo o en combinación 0,003 % fracción de masa máximo en productos deshidratados.
+
+
+        .titulo-tres.mb-4(data-aos="flip-up").mb-4
+          h4(data-aos="fade-up") Agua o hielo
+          
+        p(data-aos="fade-up").mb-4 El agua es un ingrediente muy importante cuando se elaboran productos cárnicos, pues permite que se formen soluciones coloidales y verdaderas. Debido a su polaridad, se fija con facilidad a las proteínas de la carne, además de aportar jugosidad y suavidad a los derivados cárnicos.
+
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .bg-color-1.mb-5(data-aos="fade-up")
+              .row.justify-content-center.align-items-center
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema1/2.png', alt='', data-aos="zoom-in")
+                .col-lg
+                  .p-4
+                    p.mb-3(data-aos="fade-up") #[strong Las principales funciones del agua en los derivados cárnicos son:]
+
+                    ul.lista-ul--color
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | Sirve como disolvente de la sal y los demás ingredientes en una formulación cárnica.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | El hielo permite mantener la estabilidad y la temperatura baja en una emulsión.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | Ayuda a reducir costos de producción en la elaboración de derivados cárnicos.
+
+
 </template>
 
 <script>

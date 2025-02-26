@@ -9,11 +9,11 @@
       h1 Introducción
 
 
-    .bg-full-width-2.bg-fondo-1
+    .bg-full-width.bg-fondo-1
       .px-5.pb-5
         p(data-aos="fade-right").mb-4 Los aditivos e ingredientes desempeñan un papel fundamental en la fabricación de productos cárnicos, mejorando su sabor, textura y conservación. Elementos como la sal, el azúcar, los fosfatos y los antioxidantes permiten prolongar la vida útil de los productos y optimizar su calidad, garantizando características organolépticas atractivas para el consumidor.
 
-        .row.justify-content-center.align-items-stretch
+        .row.justify-content-center.align-items-stretch.mb-4
           .col-lg-8
             .bg-color-4.p-4.h-100
               p(data-aos="fade-right").mb-0 Además de los aditivos, el ahumado es una técnica ampliamente utilizada en la industria cárnica para conferir aroma y color a los alimentos. Existen distintos tipos de ahumado, como el frío, caliente y artificial, cada uno con efectos específicos en la textura y estabilidad del producto. Este proceso no solo mejora el aspecto sensorial, sino que también contribuye a la conservación mediante la reducción de microorganismos.
