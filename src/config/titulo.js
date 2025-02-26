@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Ingredientes y aditivos usados en el procesamiento de carnes'
