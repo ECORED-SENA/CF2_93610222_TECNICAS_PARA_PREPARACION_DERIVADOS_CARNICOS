@@ -182,21 +182,6 @@ export default {
         'Amézquita, A., Arango, C., Restrepo, D. y Restrepo, R. (2001). Industria de carnes. Medellín, Colombia: Universidad Nacional.',
       link: '',
     },
-    {
-      referencia:
-        'Girad, J. (1991). <em>Tecnología de la carne y de los productos cárnicos</em>. Madrid, España: Acribia.',
-      link: '',
-    },
-    {
-      referencia:
-        'Decreto 2162 de 1983. (01 de agosto). <em>Por el cual se reglamenta parcialmente el título V de la Ley 09 de 1979, en cuanto a producción, procesamiento, transporte y expendio de los productos cárnicos procesados.</em> Diario Oficial, 36325, 30 de agosto de 1983.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ramírez, R. (2006). <em>Tecnología de cárnicos</em>. Bogotá, Colombia: Universidad Nacional.',
-      link: '',
-    },
   ],
   creditos: [
     {
