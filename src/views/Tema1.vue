@@ -401,80 +401,83 @@
     .titulo-tres.mb-5(data-aos="flip-up")
       h4(data-aos="fade-up") Ácido – L - Glutámico de sodio
 
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6
-        .bg-color-9(data-aos="fade-up").p-4.h-100
-          p.mb-0.mt-lg-4 El ácido glutámico es un aminoácido presente en tejidos animales y vegetales. Se emplea en la industria cárnica como #[strong potenciador de sabor].
+    .bg-full-width.bg-fondo-6
+      .px-4.px-md-5.pb-5
 
-      .col-lg-6
-        figure
-          img(src='@/assets/curso/tema1/11.png', alt='', data-aos="zoom-in")
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6
+            .bg-color-9(data-aos="fade-up").p-4.h-100
+              p.mb-0.mt-lg-4 El ácido glutámico es un aminoácido presente en tejidos animales y vegetales. Se emplea en la industria cárnica como #[strong potenciador de sabor].
 
-
-    .titulo-tres.mb-5(data-aos="flip-up")
-      h4(data-aos="fade-up") Gomas
-
-    p(data-aos="fade-up").mb-4 Los carragenatos, extraídos de algas rojas, son utilizados en productos cárnicos como gelificantes y estabilizadores. Los tipos de carragenatos son:
-
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-3
-        .bg-color-5(data-aos="fade-up").h-100
-          .bg-color-7.px-4.py-3
-            h5.mb-0 Kappa
-          .px-4.py-3
-            p.mb-0 Forma geles firmes.
-      .col-lg-3
-        .bg-color-5(data-aos="fade-up").h-100
-          .bg-color-7.px-4.py-3
-            h5.mb-0 Lota
-          .px-4.py-3
-            p.mb-0 Generar geles elásticos y suaves
-      .col-lg-3
-        .bg-color-5(data-aos="fade-up").h-100
-          .bg-color-7.px-4.py-3
-            h5.mb-0 Lambda
-          .px-4.py-3
-            p.mb-0 Actúa como espesante
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema1/11.png', alt='', data-aos="zoom-in")
 
 
-    .titulo-tres.mb-5(data-aos="flip-up")
-      h4(data-aos="fade-up") Especias
+        .titulo-tres.mb-5(data-aos="flip-up")
+          h4(data-aos="fade-up") Gomas
 
-    p(data-aos="fade-up").mb-4 Las especias se utilizan en la carne para mejorar su aroma y sabor. Algunas actúan como conservantes. La clasificación de especias:
+        p(data-aos="fade-up").mb-4 Los carragenatos, extraídos de algas rojas, son utilizados en productos cárnicos como gelificantes y estabilizadores. Los tipos de carragenatos son:
+
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-3
+            .bg-color-5(data-aos="fade-up").h-100
+              .bg-color-7.px-4.py-3
+                h5.mb-0 Kappa
+              .px-4.py-3
+                p.mb-0 Forma geles firmes.
+          .col-lg-3
+            .bg-color-5(data-aos="fade-up").h-100
+              .bg-color-7.px-4.py-3
+                h5.mb-0 Lota
+              .px-4.py-3
+                p.mb-0 Generar geles elásticos y suaves
+          .col-lg-3
+            .bg-color-5(data-aos="fade-up").h-100
+              .bg-color-7.px-4.py-3
+                h5.mb-0 Lambda
+              .px-4.py-3
+                p.mb-0 Actúa como espesante
 
 
-    .row.justify-content-center.mb-3
-      .col-lg-8
-        .bg-color-1(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-auto
-              figure
-                img(src='@/assets/curso/tema1/12.png', alt='', data-aos="zoom-in")
-            .col-lg
-              .p-4
+        .titulo-tres.mb-5(data-aos="flip-up")
+          h4(data-aos="fade-up") Especias
 
-                ul.lista-ul--color
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Hojas:] laurel, mejorana, romero, tomillo.
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Tallos:] apio, cilantro, perejil.
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Corteza:] canela.
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Frutas:] pimienta, nuez moscada.
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Raíces:] rábano.
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Bulbos:] cebolla, ajo.
-                  li.mb-1
-                    i.fa-regular.fa-circle-right
-                    | #[strong Semillas:] comino, mostaza.
+        p(data-aos="fade-up").mb-4 Las especias se utilizan en la carne para mejorar su aroma y sabor. Algunas actúan como conservantes. La clasificación de especias:
+
+
+        .row.justify-content-center.mb-3
+          .col-lg-8
+            .bg-color-1(data-aos="fade-up")
+              .row.justify-content-center.align-items-center
+                .col-lg-auto
+                  figure
+                    img(src='@/assets/curso/tema1/12.png', alt='', data-aos="zoom-in")
+                .col-lg
+                  .p-4
+
+                    ul.lista-ul--color
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Hojas:] laurel, mejorana, romero, tomillo.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Tallos:] apio, cilantro, perejil.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Corteza:] canela.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Frutas:] pimienta, nuez moscada.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Raíces:] rábano.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Bulbos:] cebolla, ajo.
+                      li.mb-1
+                        i.fa-regular.fa-circle-right
+                        | #[strong Semillas:] comino, mostaza.
 </template>
 
 <script>
