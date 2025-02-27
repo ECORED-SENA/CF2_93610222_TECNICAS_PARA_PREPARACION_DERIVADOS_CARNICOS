@@ -26,77 +26,77 @@
         p(data-aos="fade-right") #[strong Los aditivos se pueden clasificar de la siguiente manera:]
 
 
-        .row.align-items-stretch.justify-content-center.mb-4
-          .col-md-4.col-lg-2
+        .row.align-items-stretch.justify-content-center
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Colorantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Antioxidantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Espesantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Estabilizantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Acidificantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Antiaglomerantes
 
-        .row.align-items-stretch.justify-content-center.mb-4
-          .col-md-4.col-lg-2
+        .row.align-items-stretch.justify-content-center
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Polvos gasificantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4 
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Agentes de revestimiento
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Agentes de tratamiento de las harinas
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Exaltadores de aroma
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Edulcorantes artificiales
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Fosfatos
 
-        .row.align-items-stretch.justify-content-center.mb-4
-          .col-md-4.col-lg-2
+        .row.align-items-stretch.justify-content-center
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Conservadores
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Emulgentes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Gelificantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Exaltadores del sabor
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Correctores de acidez
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Almidones modificados
 
-        .row.align-items-stretch.justify-content-center.mb-5
-          .col-md-4.col-lg-2
+        .row.align-items-stretch.justify-content-center
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Antiespumantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Sales de fusión
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Aromatizantes
-          .col-md-4.col-lg-2
+          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Enzimas
 
@@ -185,7 +185,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in")
+                    img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in" style="max-width: 90px").mb-4.mb-lg-0.mx-auto
                 .col-lg
                   p.mb-0(data-aos="fade-up").text-white Se ha establecido que para que la sal actúe como conservante, debe añadirse un 17 % de salmuera al producto. En embutidos, la proporción utilizada varía entre 2,5 % y 3,0 %. Un porcentaje mayor podría generar un sabor demasiado salado.
 
@@ -232,7 +232,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in")
+                    img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in" style="max-width: 90px").mb-4.mb-lg-0.mx-auto
                 .col-lg
                   h5.mb-2.text-white Precaución
                   p.mb-0(data-aos="fade-up").text-white El uso de nitritos en exceso puede generar la formación de nitrosaminas, compuestos altamente cancerígenos. Por esta razón, su uso debe ser controlado estrictamente.
@@ -315,7 +315,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in")
+                    img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in" style="max-width: 90px").mb-4.mb-lg-0.mx-auto
                 .col-lg
                   p.mb-0(data-aos="fade-up").text-white El uso permitido de estos compuestos es 50 g por cada 100 kg de masa cárnica.
 
@@ -381,13 +381,13 @@
         p(data-aos="fade-up").mb-0 Los antioxidantes previenen la oxidación de las grasas y la pérdida de color en los productos cárnicos. Los más utilizados en la industria son:
 
     .row.justify-content-center.align-items-stretch.mb-3
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-4(data-aos="fade-up").h-100
           .bg-color-7.px-4.py-3
             h5.mb-0 BHA
           .px-4.py-3
             p.mb-0 (Butilhidroxianisol)
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-8(data-aos="fade-up").h-100
           .bg-color-7.px-4.py-3
             h5.mb-0 BHT
@@ -420,19 +420,19 @@
         p(data-aos="fade-up").mb-4 Los carragenatos, extraídos de algas rojas, son utilizados en productos cárnicos como gelificantes y estabilizadores. Los tipos de carragenatos son:
 
         .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3
+          .col-lg-3.mb-3.mb-lg-0
             .bg-color-5(data-aos="fade-up").h-100
               .bg-color-7.px-4.py-3
                 h5.mb-0 Kappa
               .px-4.py-3
                 p.mb-0 Forma geles firmes.
-          .col-lg-3
+          .col-lg-3.mb-3.mb-lg-0
             .bg-color-5(data-aos="fade-up").h-100
               .bg-color-7.px-4.py-3
                 h5.mb-0 Lota
               .px-4.py-3
                 p.mb-0 Generar geles elásticos y suaves
-          .col-lg-3
+          .col-lg-3.mb-3.mb-lg-0
             .bg-color-5(data-aos="fade-up").h-100
               .bg-color-7.px-4.py-3
                 h5.mb-0 Lambda
