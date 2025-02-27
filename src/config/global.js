@@ -94,92 +94,112 @@ export default {
   },
   complementario: [
     {
-      tema: '¿Qué son productos cárnicos?',
+      tema: 'Ingredientes y aditivos no cárnicos',
       referencia:
-        'El Mundo del Campo - alfonso Uribe. (2019).Productos cárnicos chorizos caqueta, chicharrón KAPEL.',
-      tipo: 'Video',
+        'La ciencia en los alimentos. (20233). Cuel es la diferencia entre aditivo e ingrediente - INGREDIENTES – ADITIVOS. [Archivo de video] Youtube.',
+      tipo: 'VIDEO',
       link:
-        'https://www.youtube.com/watch?v=6Nvp6M3DtxQ&ab_channel=ElMundodelCampo-alfonsouribet',
+        'https://www.youtube.com/watch?v=cqrcqLdXTCE&ab_channel=LacienciaenlosalimentosLacienciaenlosalimentos',
     },
     {
-      tema: 'Clasificación de los productos cárnicos procesados',
+      tema: 'Ingredientes y aditivos no cárnicos',
       referencia:
-        'Jahira Casilla. (2021). Clasificación de productos cárnicos. [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=9RKsBh3bFz0&ab_channel=JahiraCasilla',
+        'Pacheco Pérez, W. A., Restrepo Molina, D. A., & Sepúlveda Valencia, J. U. (2011). Revisión: Uso de Ingredientes no Cárnicos como Reemplazantes de Grasa en Derivados Cárnicos. Revista Facultad Nacional de Agronomía - Medellín, 64(2), 6257-6264.',
+      tipo: 'DOCUMENTO',
+      link: 'https://www.redalyc.org/articulo.oa?id=179922664023',
     },
     {
-      tema: 'Tripa o funda utilizada para embutidos',
-      referencia:
-        'TARAJAI. (2021). Diferentes tripas para embutidos. [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=nU98UwnzV28&ab_channel=TARAJAI',
-    },
-    {
-      tema: 'Proceso de elaboración de productos cárnicos',
-      referencia: 'FAO. (s.f.). Procesados de carnes',
-      tipo: 'Documento',
-      link:
-        'https://openknowledge.fao.org/server/api/core/bitstreams/389de810-1911-4f0e-965f-d9fe0b8aa52e/content',
+      tema: 'El ahumado',
+      referencia: 'SMOKE KING. (S.F.). Guía de Ahumados.',
+      tipo: 'DOCUMENTO',
+      link: 'https://ahumadoras.com/guia-de-ahumados.pdf',
     },
   ],
   glosario: [
     {
+      termino: 'Aditivos alimentarios',
+      significado:
+        'sustancias añadidas a los productos cárnicos para mejorar su conservación, textura, sabor o apariencia.',
+    },
+    {
       termino: 'Ahumado',
       significado:
-        'técnica de conservación que otorga sabor y color mediante la exposición al humo.',
+        'método de conservación que aporta aroma y color a los productos cárnicos mediante la exposición al humo.',
     },
     {
-      termino: 'Embutido',
+      termino: 'Antioxidantes',
       significado:
-        'producto cárnico moldeado dentro de una tripa natural o artificial.',
+        'compuestos que evitan la oxidación de las grasas y prolongan la vida útil del producto.',
     },
     {
-      termino: 'Esterilización',
+      termino: 'Carragenatos',
       significado:
-        'eliminación de microorganismos mediante altas temperaturas en productos enlatados.',
+        'polisacáridos extraídos de algas rojas usados para mejorar la textura y la retención de agua.',
     },
     {
-      termino: 'Maduración',
+      termino: 'Emulsionantes',
       significado:
-        'proceso bioquímico que mejora el sabor y textura de productos cárnicos crudos.',
+        'sustancias que ayudan a estabilizar mezclas de agua y grasa en productos cárnicos procesados.',
     },
     {
-      termino: 'Morcilla',
+      termino: 'Fosfatos',
       significado:
-        'producto elaborado con sangre de cerdo, arroz y condimentos.',
+        'compuestos que mejoran la solubilización de proteínas y aumentan la capacidad de retención de agua.',
     },
     {
-      termino: 'Productos cárnicos',
+      termino: 'Glutamato de sodio',
       significado:
-        'alimentos elaborados con carne, grasa y aditivos autorizados.',
+        'aminoácido que actúa como potenciador del sabor en productos cárnicos.',
     },
     {
-      termino: 'Salchichón',
+      termino: 'Nitratos y nitritos',
       significado:
-        'embutido cocido a base de carne de res o cerdo con especias.',
+        'sales utilizadas en el curado de carnes para fijar el color y prevenir el crecimiento bacteriano.',
     },
     {
-      termino: 'Tratamiento térmico',
+      termino: 'Salmuera',
       significado:
-        'proceso de cocción utilizado para garantizar la seguridad y conservación del producto.',
+        'mezcla de agua y sal utilizada en la conservación y curado de productos cárnicos.',
     },
     {
-      termino: 'Tripa artificial',
+      termino: 'Texturizantes',
       significado:
-        'recubrimiento sintético de celulosa, plástico o colágeno para embutidos.',
-    },
-    {
-      termino: 'Tripa natural',
-      significado:
-        'funda de origen animal utilizada en la elaboración de embutidos.',
+        'ingredientes que modifican la textura de los productos cárnicos, mejorando su consistencia y apariencia.',
     },
   ],
   referencias: [
     {
       referencia:
         'Amézquita, A., Arango, C., Restrepo, D. y Restrepo, R. (2001). Industria de carnes. Medellín, Colombia: Universidad Nacional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Girad, J. (1991). Tecnología de la carne y de los productos cárnicos. Madrid, España: Acribia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Guerrero, I., Hui, Y. y Rosmini, M. (2012). Ciencia y tecnología de la carne. México: Limusa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC). (2008, 20 de agosto). Industrias Alimentarias. Productos cárnicos procesados no enlatados (NTC 1325).',
+      link: '',
+    },
+    {
+      referencia: 'Klement, M. (1984). El ahumado. Zaragoza, España: Acribia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Maya, J. (2010). Manejo y procesamiento de carnes. Pasto, Colombia: Universidad Nacional Abierta y a Distancia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ramírez, R. (2006). Tecnología de cárnicos. Bogotá, Colombia: Universidad Nacional.',
       link: '',
     },
   ],
@@ -225,7 +245,7 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Edgar Mauricio Cortes Garcia',
+          nombre: 'Cielo Angulo',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

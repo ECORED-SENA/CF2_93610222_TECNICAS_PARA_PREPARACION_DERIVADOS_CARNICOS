@@ -17,38 +17,37 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Ingredientes y aditivos en productos cárnicos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> Evaluar los ingredientes y aditivos no cárnicos utilizados en la industria cárnica, sus funciones, clasificación y su impacto en la conservación, sabor, textura y estabilidad de los productos procesados.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la función principal de los nitratos y nitritos en los productos cárnicos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Fijar el color y prevenir el crecimiento bacteriano.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Mejorar la textura y solubilización de proteínas.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Aportar dulzura y favorecer la fermentación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Aumentar la retención de agua y la jugosidad.',
               esCorrecta: false,
             },
           ],
@@ -57,29 +56,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál de los siguientes ingredientes no es un antioxidante?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'BHA.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Fosfatos.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'BHT.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'TBHQ.',
               esCorrecta: false,
             },
           ],
@@ -88,30 +86,31 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál de las siguientes afirmaciones sobre la sal es correcta?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'No influye en la retención de agua.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Es utilizada únicamente para potenciar el sabor.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Ayuda a conservar los productos embutidos y realza el sabor.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Se usa en embutidos en una proporción del 10 %.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -120,28 +119,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál es el propósito de los fosfatos en los productos cárnicos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Reducir la acidez y mejorar la coloración.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Solubilizar proteínas y mejorar la retención de agua.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Aportar aroma y potenciar el sabor.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Actuar como conservante natural.',
               esCorrecta: false,
             },
           ],
@@ -150,30 +149,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Cuál es una función clave de los ascorbatos y eritorbatos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+              texto: 'Mejorar la textura del producto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Aportar dulzura y mejorar la fermentación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto: 'Acelerar la formación del color en carnes curadas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Aumentar la capacidad de retención de agua.',
               esCorrecta: false,
             },
           ],
@@ -182,29 +179,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál de los siguientes no es un tipo de ahumado?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Ahumado en frío.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Ahumado caliente.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Ahumado a presión.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Ahumado artificial.',
               esCorrecta: false,
             },
           ],
@@ -214,28 +210,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es la principal función del azúcar en la elaboración de productos cárnicos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Mejorar el color del producto final.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Actuar como fuente de energía para la fermentación.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Disminuir la retención de agua.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Fijar el color en la carne curada.',
               esCorrecta: false,
             },
           ],
@@ -245,28 +241,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Qué efecto tienen las gomas como los carragenatos en los productos cárnicos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Mejoran la textura y la retención de agua.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Disminuyen la actividad de los microorganismos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aportan dulzura y sabor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Actúan como colorantes naturales.',
               esCorrecta: false,
             },
           ],
@@ -276,18 +272,18 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            'El agua en los productos cárnicos mejora la jugosidad y estabiliza las emulsiones.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Falso',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
           ],
@@ -297,18 +293,18 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'Los nitritos pueden ser usados en cualquier cantidad sin restricciones, ya que no afectan la salud.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Falso',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
           ],
@@ -318,19 +314,19 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'El ahumado se emplea solo para mejorar el sabor, sin influir en la conservación de la carne.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Falso',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Verdadero',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -339,19 +335,19 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Los antioxidantes evitan la oxidación de las grasas, prolongando la vida útil del producto.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Falso',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -360,19 +356,19 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'El glutamato de sodio es un aminoácido que actúa como potenciador del sabor.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Falso',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -381,19 +377,19 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'La sal se usa únicamente para mejorar la apariencia de los productos cárnicos.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Falso',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Verdadero',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -402,19 +398,19 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'Los fosfatos en la industria cárnica ayudan a mejorar la solubilización de proteínas y la retención de agua',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Falso',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
