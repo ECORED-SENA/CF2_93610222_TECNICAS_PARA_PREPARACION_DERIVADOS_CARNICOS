@@ -27,76 +27,76 @@
 
 
         .row.align-items-stretch.justify-content-center
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Colorantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Antioxidantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Espesantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Estabilizantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Acidificantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Antiaglomerantes
 
         .row.align-items-stretch.justify-content-center
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Polvos gasificantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4 
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4 
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Agentes de revestimiento
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Agentes de tratamiento de las harinas
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Exaltadores de aroma
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Edulcorantes artificiales
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Fosfatos
 
         .row.align-items-stretch.justify-content-center
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Conservadores
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Emulgentes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Gelificantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Exaltadores del sabor
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Correctores de acidez
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Almidones modificados
 
         .row.align-items-stretch.justify-content-center
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Antiespumantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Sales de fusión
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Aromatizantes
-          .col-6.col-md-4.col-lg-2.mb-3.mb-md-4
+          .col-6.col-md-4.col-xl-2.mb-3.mb-md-4
             .bg-color-primario.px-4.py-5.h-100
               h5.text-center.mb-0 Enzimas
 
@@ -105,7 +105,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
-          span Aditivos de uso permitido en productos cárnicos procesados
+          span Aditivos de uso permitido en productos cárnicos procesados.
 
 
         .tabla-a.color-acento-contenido.mb-3
@@ -187,7 +187,7 @@
                   figure
                     img(src='@/assets/curso/tema1/4.svg', alt='', data-aos="zoom-in" style="max-width: 90px").mb-4.mb-lg-0.mx-auto
                 .col-lg
-                  p.mb-0(data-aos="fade-up").text-white Se ha establecido que para que la sal actúe como conservante, debe añadirse un 17 % de salmuera al producto. En embutidos, la proporción utilizada varía entre 2,5 % y 3,0 %. Un porcentaje mayor podría generar un sabor demasiado salado.
+                  p.mb-0(data-aos="fade-up").text-white Se ha establecido que, para que la sal actúe como conservante, debe añadirse un 17 % de salmuera al producto. En embutidos, la proporción utilizada varía entre 2,5 % y 3,0 %. Un porcentaje mayor podría generar un sabor demasiado salado.
 
 
         .row.justify-content-center.mb-5
@@ -244,7 +244,7 @@
             .titulo-tres.mb-4(data-aos="flip-up").mb-4
               h4(data-aos="fade-up") Fosfatos
               
-            p(data-aos="fade-up").mb-4 Los fosfatos se utilizan en la industria cárnica para aumentar la retención de humedad, formar emulsiones estables y desarrollar una estructura más firme en los productos procesados
+            p(data-aos="fade-up").mb-4 Los fosfatos se utilizan en la industria cárnica para aumentar la retención de humedad, formar emulsiones estables y desarrollar una estructura más firme en los productos procesados.
 
 
             .bg-color-1(data-aos="fade-up")
@@ -323,7 +323,7 @@
         .titulo-tres.mb-5(data-aos="flip-up")
           h4(data-aos="fade-up") Azúcar
 
-        p(data-aos="fade-up").mb-4 El azúcar mejora el sabor y el aroma de los productos cárnicos, además de facilitar la penetración de la sal y los nitritos. También actúa como sustrato para los microorganismos responsables de la fermentación en productos cárnicos madurados. Los azúcares más utilizado
+        p(data-aos="fade-up").mb-4 El azúcar mejora el sabor y el aroma de los productos cárnicos, además de facilitar la penetración de la sal y los nitritos. También actúa como sustrato para los microorganismos responsables de la fermentación en productos cárnicos madurados. Los azúcares más utilizado.
 
 
         .row.justify-content-center.mb-5

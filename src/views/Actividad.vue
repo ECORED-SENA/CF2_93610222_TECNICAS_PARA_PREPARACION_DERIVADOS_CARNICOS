@@ -20,7 +20,7 @@ export default {
       tema: 'Ingredientes y aditivos en productos cárnicos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Evaluar los ingredientes y aditivos no cárnicos utilizados en la industria cárnica, sus funciones, clasificación y su impacto en la conservación, sabor, textura y estabilidad de los productos procesados.',
+        '<b>Objetivo:</b> evaluar los ingredientes y aditivos no cárnicos utilizados en la industria cárnica, sus funciones, clasificación y su impacto en la conservación, sabor, textura y estabilidad de los productos procesados.',
       barajarPreguntas: true,
       preguntas: [
         {
