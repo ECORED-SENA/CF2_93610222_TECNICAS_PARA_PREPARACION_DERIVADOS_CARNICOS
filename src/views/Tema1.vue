@@ -196,7 +196,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg
                   .p-4
-                    p.mb-3(data-aos="fade-up") #[strong Las principales funciones del agua en los derivados cárnicos son:]
+                    p.mb-3(data-aos="fade-up") #[strong Funciones de la sal en los productos cárnicos:]
 
                     ul.lista-ul--color
                       li.mb-1
