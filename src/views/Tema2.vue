@@ -55,7 +55,7 @@
                         i.fa-regular.fa-circle-right
                         | #[strong Compuestos de hidrocarburos:] (benzopirenos).
 
-    p(data-aos="fade-right").mb-4 #[strong Las funciones del ahumado]
+    p(data-aos="fade-right").mb-4 #[strong Las funciones del ahumado:]
 
     .bg-full-width.bg-fondo-7
       .px-4.px-md-5.pb-5
