@@ -261,19 +261,19 @@
                     ul.lista-ul--color
                       li.mb-1
                         i.fa-regular.fa-circle-right
-                        | Tripolifosfato de sodio
+                        | Tripolifosfato de sodio.
                       li.mb-1
                         i.fa-regular.fa-circle-right
-                        | Hexametafosfato de sodio
+                        | Hexametafosfato de sodio.
                       li.mb-1
                         i.fa-regular.fa-circle-right
-                        | Pirofosfato de sodio
+                        | Pirofosfato de sodio.
                       li.mb-1
                         i.fa-regular.fa-circle-right
-                        | Fosfato monosódico
+                        | Fosfato monosódico.
                       li.mb-1
                         i.fa-regular.fa-circle-right
-                        | Fosfato disódico
+                        | Fosfato disódico.
                     
         .titulo-tres.mb-5(data-aos="flip-up")
           h4(data-aos="fade-up") Ascorbatos y eritorbatos
