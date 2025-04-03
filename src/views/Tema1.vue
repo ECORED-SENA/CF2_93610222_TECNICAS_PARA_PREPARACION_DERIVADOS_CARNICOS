@@ -323,7 +323,7 @@
         .titulo-tres.mb-5(data-aos="flip-up")
           h4(data-aos="fade-up") Azúcar
 
-        p(data-aos="fade-up").mb-4 El azúcar mejora el sabor y el aroma de los productos cárnicos, además de facilitar la penetración de la sal y los nitritos. También actúa como sustrato para los microorganismos responsables de la fermentación en productos cárnicos madurados. Los azúcares más utilizado.
+        p(data-aos="fade-up").mb-4 El azúcar mejora el sabor y el aroma de los productos cárnicos, además de facilitar la penetración de la sal y los nitritos. También actúa como sustrato para los microorganismos responsables de la fermentación en productos cárnicos madurados. Los azúcares más utilizados son:
 
 
         .row.justify-content-center.mb-5
@@ -444,13 +444,13 @@
               .bg-color-7.px-4.py-3
                 h5.mb-0 Lota
               .px-4.py-3
-                p.mb-0 Generar geles elásticos y suaves
+                p.mb-0 Generar geles elásticos y suaves.
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-5(data-aos="fade-up").h-100
               .bg-color-7.px-4.py-3
-                h5.mb-0 Lambda
+                h5.mb-0 Lambda.
               .px-4.py-3
-                p.mb-0 Actúa como espesante
+                p.mb-0 Actúa como espesante.
 
 
         .titulo-tres.mb-5(data-aos="flip-up")
