@@ -327,9 +327,22 @@
 
 
         .row.justify-content-center.mb-5
-          .col-lg-6
+          .col-lg-4
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 1. 
+              span Estructura molecular de la glucosa
+
             figure.mb-3
-              img(src='@/assets/curso/tema1/9.png', alt='', data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/f1.png', style="max-width: 200px" data-aos="zoom-in" alt="Estructura molecular de la glucosa, un monosacárido, representada en su forma cíclica con grupos hidroxilo  y un oxígeno en el anillo.").mx-auto
+
+        .row.justify-content-center.mb-5
+          .col-lg-4
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 2. 
+              span Estructura molecular de la sacarosa
+
+            figure.mb-3
+              img(src='@/assets/curso/tema1/f2.png', style="max-width: 200px" data-aos="zoom-in" alt="Estructura molecular de la sacarosa, un disacárido compuesto por una molécula de glucosa y una de fructosa unidas por un enlace glucosídico.").mx-auto
             p.mb-0(data-aos="fade-up").text-center La adición máxima recomendada es del 5 % del total de la formulación.
 
 
