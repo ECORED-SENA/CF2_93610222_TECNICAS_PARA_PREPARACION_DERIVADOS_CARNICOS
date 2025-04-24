@@ -128,7 +128,7 @@
                     | #[strong Para productos como cábanos:] 45 a 90 °C
                   li.mb-1
                     i.fa-regular.fa-circle-right
-                    | #[strong Para embutidos frescos de corta conservación (chorizo, longaniza): :] 60 a 100 °C
+                    | #[strong Para embutidos frescos de corta conservación (chorizo, longaniza):] 60 a 100 °C
 
               div(titulo="Ahumado artificial (humo químico)")
                 p.mb-0 Se utiliza humo líquido, obtenido por combustión controlada del humo natural. Durante este proceso se eliminan compuestos #[strong cancerígenos] como los #[strong benzopirenos].

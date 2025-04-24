@@ -11,7 +11,7 @@
     .bg-full-width.bg-fondo-2
       .px-5.pb-5
 
-        p(data-aos="fade-right").mb-5 Los ingredientes utilizados en la elaboración de productos cárnicos como sal, azúcar, especias, condimentos, entre otros, ayudan a potenciar el sabor de estos alimentos, mejorando sus características organolépticas. Estos se pueden utilizar sin límite de dosificación ya que son poco tóxicos para el ser humano.
+        p(data-aos="fade-right").mb-5 Los ingredientes utilizados en la elaboración de productos cárnicos como sal, azúcar, especias, condimentos, entre otros, ayudan a potenciar el sabor de estos alimentos, mejorando sus características organolépticas. Estos se pueden utilizar sin límite de dosificación, ya que son poco tóxicos para el ser humano.
 
 
 
@@ -334,7 +334,7 @@
 
             figure.mb-3
               img(src='@/assets/curso/tema1/f1.png', style="max-width: 200px" data-aos="zoom-in" alt="Estructura molecular de la glucosa, un monosacárido, representada en su forma cíclica con grupos hidroxilo  y un oxígeno en el anillo.").mx-auto
-
+            figcaption.mt-2 Nota: Adaptación SENA.
         .row.justify-content-center.mb-5
           .col-lg-4
             .titulo-sexto.color-acento-contenido.mb-3
@@ -343,6 +343,7 @@
 
             figure.mb-3
               img(src='@/assets/curso/tema1/f2.png', style="max-width: 200px" data-aos="zoom-in" alt="Estructura molecular de la sacarosa, un disacárido compuesto por una molécula de glucosa y una de fructosa unidas por un enlace glucosídico.").mx-auto
+            figcaption.mt-2 Nota: Adaptación SENA.
             p.mb-0(data-aos="fade-up").text-center La adición máxima recomendada es del 5 % del total de la formulación.
 
 
