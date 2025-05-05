@@ -2,36 +2,32 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-
 
     .bg-full-width.bg-fondo-1
       .px-5.pb-5
         p(data-aos="fade-right").mb-4 Los aditivos e ingredientes desempeñan un papel fundamental en la fabricación de productos cárnicos, mejorando su sabor, textura y conservación. Elementos como la sal, el azúcar, los fosfatos y los antioxidantes permiten prolongar la vida útil de los productos y optimizar su calidad, garantizando características organolépticas atractivas para el consumidor.
 
         .row.justify-content-center.align-items-stretch.mb-4
-          .col-lg-8
+          .col-lg-8(data-aos="fade-right")
             .bg-color-4.p-4.h-100
-              p(data-aos="fade-right").mb-0 Además de los aditivos, el ahumado es una técnica ampliamente utilizada en la industria cárnica para conferir aroma y color a los alimentos. Existen distintos tipos de ahumado, como el frío, caliente y artificial, cada uno con efectos específicos en la textura y estabilidad del producto. Este proceso no solo mejora el aspecto sensorial, sino que también contribuye a la conservación mediante la reducción de microorganismos.
+              p.mb-0 Además de los aditivos, el ahumado es una técnica ampliamente utilizada en la industria cárnica para conferir aroma y color a los alimentos. Existen distintos tipos de ahumado, como el frío, caliente y artificial, cada uno con efectos específicos en la textura y estabilidad del producto. Este proceso no solo mejora el aspecto sensorial, sino que también contribuye a la conservación mediante la reducción de microorganismos.
 
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src="@/assets/curso/intro/1.png", alt="alt", data-aos="zoom-in").mx-auto.mt-4.mt-lg-0
 
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center(data-aos="fade-right")
           .col-auto
             figure
               img(src="@/assets/curso/intro/2.svg", alt="alt", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
 
           .col
-            p(data-aos="fade-right") El uso de estos ingredientes y técnicas está regulado por normativas como la NTC 1325, que establece límites y condiciones para garantizar la seguridad alimentaria. Comprender la función de los aditivos y métodos de procesamiento es clave para el desarrollo de productos cárnicos de alta calidad y con estándares adecuados para su comercialización.
-
-
-
+            p.mb-0 El uso de estos ingredientes y técnicas está regulado por normativas como la NTC 1325, que establece límites y condiciones para garantizar la seguridad alimentaria. Comprender la función de los aditivos y métodos de procesamiento es clave para el desarrollo de productos cárnicos de alta calidad y con estándares adecuados para su comercialización.
     
 </template>
 
@@ -41,6 +37,14 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

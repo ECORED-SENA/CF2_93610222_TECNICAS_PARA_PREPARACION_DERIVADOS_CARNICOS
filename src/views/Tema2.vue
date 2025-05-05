@@ -2,41 +2,36 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 El ahumado
-
 
     .bg-full-width.bg-fondo-2
       .px-5.pb-5
 
         p(data-aos="fade-right").mb-5 El ahumado es un método de conservación que se utiliza combinado con otro método, el curado, el cual consiste en adicionar humo (natural o artificial) para mejorar las propiedades organolépticas y la conservación de los productos cárnicos.
 
-
-
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 El humo contiene sustancias con acción bactericida y proporciona a la carne curada, deshidratada o salada <b>color, olor y sabor característicos</b>. Se produce por la combustión incompleta de madera dura, como el roble, cedro y olmo, o bien por métodos industriales que generan <b>humo líquido o en polvo</b>.
 
-
         p(data-aos="fade-right").mb-4 El humo se deposita en la superficie del producto y sus sustancias desinfectantes penetran en la carne, ejerciendo una acción bactericida. Se considera un complemento del curado (Ramírez, 2006).
-
 
         .row.justify-content-center.mb-3
           .col-lg-10
-            .bg-color-5(data-aos="fade-up")
+            .bg-color-5
               .row.justify-content-center.align-items-center
-                .col-lg-auto
+                .col-lg-auto(data-aos="fade-right")
                   figure
                     img(src='@/assets/curso/tema1/12.png', alt='', data-aos="zoom-in")
-                .col-lg
+                .col-lg(data-aos="fade-left")
                   .p-4
 
-                    p(data-aos="fade-up").mb-4 Los componentes del humo son: 
+                    p.mb-4 Los componentes del humo son: 
 
                     ul.lista-ul--color
                       li.mb-1
@@ -92,29 +87,25 @@
                   img(src='@/assets/curso/tema2/icon-6.png', style="max-width: 143px", alt='').mx-auto.mb-4
                   p.text-center #[strong Cambio de textura], formando una corteza más firme.
 
-
-
         .titulo-tres.mb-5(data-aos="flip-up")
-          h4(data-aos="fade-up") Clases de ahumado
+          h4 Clases de ahumado
 
         p(data-aos="fade-up").mb-4 Según el tipo, tamaño del producto y características deseadas, se aplican diferentes tipos de ahumado.
-
 
     .bg-full-width.bg-fondo-8
       .px-4.px-md-5.pb-5
         .row.justify-content-center.mb-5
-          .col-lg-3
+          .col-lg-3(data-aos="fade-right")
             figure
-              img(src='@/assets/curso/tema2/2.png', alt='', data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/2.png', alt='')
 
-          .col-lg-9
+          .col-lg-9(data-aos="fade-left")
             AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-3")
               div(titulo="Ahumado en frío")
                 p.mb-0 Se realiza a temperaturas entre #[strong 12 °C y 30 °C]. Es un proceso lento y costoso, cuya duración puede extenderse desde #[strong dos horas] hasta #[strong varias horas], dependiendo del producto.
 
               div(titulo="Ahumado en caliente")
                 p.mb-3 Se lleva a cabo con vapor de agua, energía eléctrica (resistencia), gas, entre otros. En métodos modernos se controla la consistencia del humo, la humedad relativa y la temperatura.
-
 
                 ul.lista-ul--color.mb-3
                   li.mb-1
@@ -133,17 +124,15 @@
               div(titulo="Ahumado artificial (humo químico)")
                 p.mb-0 Se utiliza humo líquido, obtenido por combustión controlada del humo natural. Durante este proceso se eliminan compuestos #[strong cancerígenos] como los #[strong benzopirenos].
 
-
-
         .row.justify-content-center
           .col-lg-10
 
-            .bg-color-5(data-aos="fade-up")
+            .bg-color-5
               .row.justify-content-center.align-items-center
-                .col-lg
+                .col-lg(data-aos="fade-right")
                   .p-4
 
-                    p(data-aos="fade-up").mb-4 #[strong Los métodos de aplicación del humo líquido son:]
+                    p.mb-4 #[strong Los métodos de aplicación del humo líquido son:]
 
                     ul.lista-ul--color
                       li.mb-1
@@ -156,10 +145,10 @@
                         i.fa-regular.fa-circle-right
                         | #[strong Duchado:] el humo se aplica junto con agua, a través de una motobomba atomizadora.
 
-
-                .col-lg-auto
+                .col-lg-auto(data-aos="fade-left")
                   figure
-                    img(src='@/assets/curso/tema2/3.png', alt='', data-aos="zoom-in")
+                    img(src='@/assets/curso/tema2/3.png', alt='')
+
 </template>
 
 <script>

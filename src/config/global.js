@@ -97,7 +97,7 @@ export default {
       tema: 'Ingredientes y aditivos no cárnicos',
       referencia:
         'La ciencia en los alimentos. (20233). Cuel es la diferencia entre aditivo e ingrediente - INGREDIENTES – ADITIVOS. [Archivo de video] Youtube.',
-      tipo: 'VIDEO',
+      tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=cqrcqLdXTCE&ab_channel=LacienciaenlosalimentosLacienciaenlosalimentos',
     },
@@ -105,13 +105,13 @@ export default {
       tema: 'Ingredientes y aditivos no cárnicos',
       referencia:
         'Pacheco Pérez, W. A., Restrepo Molina, D. A., & Sepúlveda Valencia, J. U. (2011). Revisión: Uso de Ingredientes no Cárnicos como Reemplazantes de Grasa en Derivados Cárnicos. Revista Facultad Nacional de Agronomía - Medellín, 64(2), 6257-6264.',
-      tipo: 'DOCUMENTO',
+      tipo: 'Documento',
       link: 'https://www.redalyc.org/articulo.oa?id=179922664023',
     },
     {
       tema: 'El ahumado',
       referencia: 'SMOKE KING. (S.F.). Guía de Ahumados.',
-      tipo: 'DOCUMENTO',
+      tipo: 'Documento',
       link: 'https://ahumadoras.com/guia-de-ahumados.pdf',
     },
   ],
