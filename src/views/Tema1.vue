@@ -315,24 +315,14 @@
         p(data-aos="fade-up").mb-4 El azúcar mejora el sabor y el aroma de los productos cárnicos, además de facilitar la penetración de la sal y los nitritos. También actúa como sustrato para los microorganismos responsables de la fermentación en productos cárnicos madurados. Los azúcares más utilizados son:
 
         .row.justify-content-center.mb-5
-          .col-lg-4(data-aos="fade-right")
+          .col-auto(data-aos="fade-right")
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 1. 
-              span Estructura molecular de la glucosa
-
-            figure.mb-3
-              img(src='@/assets/curso/tema1/f1.png', style="max-width: 200px" data-aos="zoom-in" alt="Estructura molecular de la glucosa, un monosacárido, representada en su forma cíclica con grupos hidroxilo  y un oxígeno en el anillo.").mx-auto
-            figcaption.mt-2 Nota: Adaptación SENA.
-        .row.justify-content-center.mb-5
-          .col-lg-4(data-aos="fade-left")
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 2. 
-              span Estructura molecular de la sacarosa
-
-            figure.mb-3
-              img(src='@/assets/curso/tema1/f2.png', style="max-width: 200px" data-aos="zoom-in" alt="Estructura molecular de la sacarosa, un disacárido compuesto por una molécula de glucosa y una de fructosa unidas por un enlace glucosídico.").mx-auto
-            figcaption.mt-2 Nota: Adaptación SENA.
-            p.mb-0(data-aos="fade-up").text-center La adición máxima recomendada es del 5 % del total de la formulación.
+              span Estructuras moleculares glucosa y sacarosa
+            figure.mb-4
+              img(src='@/assets/curso/tema1/f1.svg', style="width: 600px" data-aos="zoom-in" alt="Estructura molecular de la glucosa, un monosacárido, representada en su forma cíclica con grupos hidroxilo con un oxígeno en el anillo y la sacarosa, un polisacárido con grupos hidroxilo y un oxígeno en el anillo.").mx-auto
+              figcaption.mt-2 #[b Nota.] Adaptación SENA.
+            p La adición máxima recomendada es del #[b 5 %] del total de la formulación.
 
         .titulo-tres.mb-5(data-aos="flip-up")
           h4 Extendedores
